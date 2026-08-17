@@ -27,7 +27,7 @@
 // console.log(arr2)
 // console.log(...arr2)
 
-
+// rest oparation
 function sum(a, b, c, ...restNumber) {
     // console.log(restNumber);
     let sum = 0
@@ -39,4 +39,4 @@ function sum(a, b, c, ...restNumber) {
 
 
 console.log(sum(3, 4, 5, 34, 54, 33, 54, 5,66,77,));
-// 16_5 taka suro arrow function taka 
+
