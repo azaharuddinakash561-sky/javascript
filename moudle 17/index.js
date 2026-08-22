@@ -14,19 +14,29 @@
 // console.log(counter);
 
 
-function cashRegister() {
-    let amount = 0;
+// function cashRegister() {
+//     let amount = 0;
 
-    return function(payableAmount){
-        // console.log(payableAmount);
-        amount += payableAmount; //inner function  accessan call
-        return amount;
-    }
-}
-let coffeshopCashCounter  = cashRegister();
-let restoraCashCounter  = cashRegister();
-console.log(coffeshopCashCounter(200));
-console.log(coffeshopCashCounter(200));
-console.log (coffeshopCashCounter(200));
+//     return function(payableAmount){
+//         // console.log(payableAmount);
+//         amount += payableAmount; //inner function  accessan call
+//         return amount;
+//     }
+// }
+// let coffeshopCashCounter  = cashRegister();
+// let restoraCashCounter  = cashRegister();
+// console.log(coffeshopCashCounter(200));
+// console.log(coffeshopCashCounter(200));
+// console.log (coffeshopCashCounter(200));
 
-console.log (restoraCashCounter(50));
+// console.log (restoraCashCounter(50));
+// update hoba na
+let name = "azahar"
+let name2 = name;
+name = "Azahar uddin"
+console.log(name2)
+// update hoba name ar ref
+let name = "azahar"
+name = "Azahar uddin"
+let name2 = name;
+console.log(name2)

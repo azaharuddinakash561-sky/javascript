@@ -28,6 +28,7 @@
 
 // myFunc2(student);
 // console.log(student);
+
 // pass by valu pass kora hocea varable taka 
 
 let name = "azahar";
@@ -39,5 +40,5 @@ function myfunc3(myName, myAge) {
     myAge = 29;
     console.log(myName, myAge);
 }
-myfunc3(name, age);
-console.log(name , age);
+myfunc3(name, age);// ai tar data change hoi 
+console.log(name , age);// ai tar data change hoi na 
