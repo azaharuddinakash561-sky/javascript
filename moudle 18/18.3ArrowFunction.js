@@ -1,3 +1,6 @@
+// const some = () => {
+
+// }
 //  const calculateShipping = (orderAmoint, shippingFee = 60)=>{
 //     // if(orderAmoint >= 1000){
 //     //     return"Free Shipping"
