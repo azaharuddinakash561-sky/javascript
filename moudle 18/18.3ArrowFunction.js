@@ -32,7 +32,7 @@ const gratSystem = (mark) =>{
 
     // ternary operater
 
-    return typeof mark != "number"? "Invalid": mark >= 90 ? "A+" : mark >= 80 ? "A": mark >= 60 ? "B+": "fail"
+    // return typeof mark != "number"? "Invalid": mark >= 90 ? "A+" : mark >= 80 ? "A": mark >= 60 ? "B+": "fail"
 }
 
 console.log(gratSystem(90))
