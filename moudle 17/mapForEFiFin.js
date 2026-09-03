@@ -44,3 +44,58 @@ let numbers = [100, 200, 300, 400, 500, 600];
 // console.log(expensiveProducts);
 // let expensiveProduct = numbers.find ((elem)=> elem >= 500);
 // console.log(expensiveProduct);
+
+
+// phone price  to find uprice  and low-price 
+
+
+// let phone = [
+//     {
+//         phone: "iphone se", 
+//         price: 20000
+//     },
+//     {
+//         phone: "iphone 14e", 
+//         price: 40000
+//     },
+//     {
+//         phone: "iphone 15e", 
+//         price: 50000
+//     },
+//     {
+//         phone: "iphone 16e", 
+//         price: 60000
+//     },
+//     {
+//         phone: "iphone 17e", 
+//         price: 70000
+//     },
+//     {
+//         phone: "iphone 18e", 
+//         price: 80000
+//     }
+// ]
+// let expensivPhones = phone.filter(phone => phone.price >= 50000);
+// // let cheapestPhones = phone.find(phone => phone.price <= 20000);
+// let cheapestPhones = phone.find(phone => {
+//     console.log(phone);
+//     return phone.price <= 20000
+// });
+// console.log(expensivPhones);
+// console.log(cheapestPhones);
+
+let student = [
+    {
+        name: "azahar",
+        roll: 29
+    }, 
+    {
+        name: "akash",
+        roll: 40
+    }
+]
+const findStudentinfo = student.find(
+    (student) => student.roll === 29
+)
+console.log(findStudentinfo);
+
