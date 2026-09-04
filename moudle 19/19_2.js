@@ -19,25 +19,25 @@
  */
 
 
-const findUserById = (users, id ) => {
-    let expectedUser = user.find((user)=>{
-        return user.id ===id
-    })
-    if(expectedUser){
-        return expectedUser;
-    }else{
-        return "user not found"
-    }
+// const findUserById = (users, id ) => {
+//     let expectedUser = user.find((user)=>{
+//         return user.id ===id
+//     })
+//     if(expectedUser){
+//         return expectedUser;
+//     }else{
+//         return "user not found"
+//     }
 
-};
+// };
 
-const user = [
-      {id: 1, name:"rafi"}, 
-      {id: 2, name:"kamal"},
-      {id: 3, name:"utsho"},
-      {id: 4, name:"rahim"}
+// const user = [
+//       {id: 1, name:"rafi"}, 
+//       {id: 2, name:"kamal"},
+//       {id: 3, name:"utsho"},
+//       {id: 4, name:"rahim"}
       
- ]
+//  ]
 
- console.log(findUserById(user, 3));
+//  console.log(findUserById(user, 3));
  
