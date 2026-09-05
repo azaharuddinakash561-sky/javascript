@@ -40,4 +40,22 @@
 //  ]
 
 //  console.log(findUserById(user, 3));
+
+
+//  problem 2
+let getCartTotal = (card) =>{
+    let total = card.reduce((accumulator, elem)=>{
+        console.log(accumulator, elem)
  
+        return accumulator+(elem.price *elem.qty)
+
+    }, 0)
+    return total;
+}
+
+let cart =  [
+    {name: "pen", price: 20 , qty: 3},
+    {name: "notebook", price: 50, qty: 2}, 
+]
+// Total = 20*3 + 50*2 = 160
+console.log(getCartTotal(card));
