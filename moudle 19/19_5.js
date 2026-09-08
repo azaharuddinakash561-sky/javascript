@@ -7,7 +7,7 @@ const sortDescending = (nums) =>{
     })
 
     // console.log("sorteNums ->", sortedNumber)
-    return sortedNumber
+    // return sortedNumber
 }
 
 // const numbers = [1, 10, 2, 25, 3]
@@ -15,18 +15,34 @@ const sortDescending = (nums) =>{
 // console.log(sortDescending(numbers))// Reference in a function with parameter
 // console.log("numbers after function call: -->",numbers)
 // problem 2
+
+// bug function -->
+// return cart.map((item)=>{
+//         item.price = item.price -item.price *0.1;
+//         return item;
+//     })
+
   const previewDiscount = (cart) =>{
+    console.log(cart)
 
-
-    return cart.map((item)=>{
-        item.price = item.price -item.price *0.1;
-        return item;
+    const updatedCart = cart.map((item)=>{
+      // console.log(item, "item")
+      return{
+        // name: item.name,
+        // color: item.color,
+        // do sperate
+        ...item,
+        price: item.price - (item.price * 0.1)
+      }
     })
+    // console.log("updatedCart",updatedCart);
+    
+    
   }
 
   let cart =[
-    {name: "Pen", price: 100},
-    {name: "Bag", price: 500}
+    {name: "Pen",color:"red", price: 100},
+    {name: "Bag",color: "null", price: 500}
     
   ] 
 
