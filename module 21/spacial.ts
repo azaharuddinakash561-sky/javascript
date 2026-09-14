@@ -11,6 +11,8 @@ const taxRate: number = 0.15;
 const myFuture: number| null = null;
 // any
 const myvar: any = "Hello, World!";
-
+// --------------------------not imported----------------------------
 // unknown
 const myUnknownVar: unknown = 42;
+
+// never
