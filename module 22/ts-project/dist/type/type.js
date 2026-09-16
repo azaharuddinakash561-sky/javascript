@@ -1,11 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const Student = {
-    name: string,
-    roll: number,
-    major: string,
-    gpa: number,
-};
 const robin = {
     name: "Robin",
     roll: 101,
