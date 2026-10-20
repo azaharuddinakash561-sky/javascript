@@ -1,17 +1,30 @@
 // import Todo from './Todo';
 import './App.css'
-import Task from './Task';
+import Book from './book';
+import Users from './Users';
+import UserCard from './userCard';
+// import Task from './Task';
 
 function App() {
-
+// const books = ["physics","chemistry","maths","biology", "english"]
+// books.map(book =>)
   return (
     <>
+    
+    <Users></Users>
+    <UserCard></UserCard>
+    
+    {/* {
+      books.map(book => <Book name={book} />)
+    } */}
+    {/* {books.map(book => <li>{book}</li>)}  */}
     {/* <h1>what is jsx</h1>
     <Gadgets></Gadgets>
     <Hello></Hello>
     <Devloper language="JavaScript" experience="5 years"/>
     <Todo task="take a break" time={10} /> */}
-    <Task name = "finish module" isDone = {false}></Task>
+    {/* <Task name  = "complete assignment" isDone={true}></Task> */}
+    {/* <Task name = "finish module" isDone = {false}></Task> */}
     {/* <Task name = "use facebook compane" isDone = {true}></Task> */}
     </>
   )
