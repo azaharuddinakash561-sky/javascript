@@ -35,3 +35,4 @@ cat.makeSount()
 
 const dog = new Dog("Dog")
 dog.makeSount()
+
